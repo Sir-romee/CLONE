@@ -1,0 +1,658 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  align-items: center;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/3/33/Microsoft_login_screen.svg");
+  font-family: Roboto, Arial;
+}
+
+.NavItem{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.signInBox {
+  margin-top: 25px;
+  background-color: white;
+  box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  -webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  text-align: center;
+  margin-left: 420px;
+  margin-right: 420px;
+  height: 330px;
+}
+
+.microsoftLogo{
+  padding-top: 40px;
+}
+
+.signIn{
+  padding-bottom: none;
+  background-color: aqua;
+}
+
+.signInItems{
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 45px;
+  margin-bottom: none;
+  background-color: cadetblue;
+}
+
+.loginDetails{
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+
+input{
+  width: 88%;
+  border: 1px solid rgb(48, 74, 167);
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  padding-bottom: 8px;
+  font-size: medium;
+}
+
+.contToOutLk{
+  font-size: small;
+  display: inline-block;
+  background-color: burlywood;
+  margin-top: none;
+  margin-top: -20px;
+}
+
+.createAcct{
+  font-size: small;
+  background-color: coral;
+  margin-top: 20px;
+  
+}
+
+label{
+  color: rgba(28, 88, 172, 0.913);
+  margin-left: 5px;
+}
+
+label:hover{
+  cursor: pointer;
+  color: gray;
+  text-decoration: underline;
+}
+
+.next{
+  background-color: rgba(28, 88, 172, 0.913);
+  display: inline-block;
+  width: 107px;
+  height: 33px;
+  color: white;
+  margin-inline-start: 60%;
+  margin-top: 40px;
+  border: none;
+}
+
+.next:hover{
+  cursor: pointer;
+  background-color: rgba(25, 80, 157, 0.913);
+}
+
+.nextItem{
+  text-align: center;
+  padding-top: 7px;
+}
+
+.signInOption{
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  -webkit-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.41);
+  text-align: center;
+  margin-left: 420px;
+  margin-right: 420px;
+  height: 50px;
+}
+
+.signInOption:hover{
+  cursor: pointer;
+  background-color: rgb(250, 247, 247);
+}
+
+.signInOptionItems{
+  text-align: left;
+  margin-left: 45px;  
+}
+
+
+
+.keyLogo{
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+
+.optionWriteUp{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: medium;
+  
+}
+
+.footer{
+  text-align: right;
+  margin-top: 106px;;
+  background-color: rgb(95, 94, 94);
+  height: 27px;
+}
+
+.footerItems{
+  color: white;
+  font-size: small;
+  padding-top: 6px;
+  padding-right: 11px;
+  
+}
+
+
+
+p:hover{
+ text-decoration: underline;
+ cursor: pointer;
+ color: white;
+}
+
+
+@media screen and (max-width: 1153px) {
+  body{
+    margin: none;
+    padding: none;
+  }
+
+  .NavItem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .signInBox{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-top: 100%;
+  }
+
+  
+}
+
+@media screen and (max-width: 670px) {
+  body{
+    margin: none;
+    padding: none;
+  }
+
+  .NavItem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .signInBox{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    
+    margin-bottom: none;
+  }
+
+  .footerItems{
+    text-align: right;
+    margin-left: 25px;
+    margin-top: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+    viewport-fit: contain;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -12%;
+  }
+
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    background-color: transparent;
+    color: rgb(78, 76, 76);
+    margin-bottom: none;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: none;
+  }
+}
+
+
+
+
+@media screen and (max-width: 380px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -12%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-bottom: none;
+    background-color: transparent;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -12%;
+  }
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-bottom: none;
+    background-color: transparent;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -12%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-bottom: none;
+    background-color: transparent;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -12%;
+  }
+
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-bottom: none;
+    background-color: transparent;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  body{
+    margin: none;
+    padding: none;
+    background-color: white;
+    background: none;
+  }
+
+  .NavItem{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contToOutLk{
+    display: none;
+  }
+
+  .optionWriteUp{
+    color: rgba(28, 88, 172, 0.913);
+  }
+
+  .createAcct{
+    margin-top: 13px;
+  }
+
+  .signInBox{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -12%;
+  }
+
+  .signInItems{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .signInOption{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .next{
+    margin: unset;
+    margin-left: 60%;
+    margin-top: 40px;
+    
+    width: 90px;
+    height: 30px;
+    display: block;
+  }
+
+  .footer{
+    margin-bottom: none;
+    background-color: transparent;
+  }
+
+  .footerItems{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 100%;
+    background-color: transparent;
+  }
+}
